@@ -4,7 +4,7 @@ public class BinOps {
       строках в int, сложите и переведите
       обратно в двоичную запись*/
         int res;
-        res = Integer.parseInt(a,2)+Integer.parseInt(b,2);
+        res = Integer.parseInt(a, 2) + Integer.parseInt(b, 2);
         return Integer.toBinaryString(res);
 
     }
@@ -14,7 +14,7 @@ public class BinOps {
       строках в int, перемножьте и переведите
       обратно в двоичную запись*/
         int res;
-        res = Integer.parseInt(a,2)*Integer.parseInt(b,2);
+        res = Integer.parseInt(a, 2) * Integer.parseInt(b, 2);
         return Integer.toBinaryString(res);
     }
 }
