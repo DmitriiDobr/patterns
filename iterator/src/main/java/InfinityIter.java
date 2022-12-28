@@ -6,7 +6,7 @@ public class InfinityIter implements Iterator<Integer> {
     int min;
     int max;
 
-    public InfinityIter( int min,int max){
+    public InfinityIter(int min, int max) {
         this.min = min;
         this.max = max;
     }
@@ -19,8 +19,8 @@ public class InfinityIter implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        Integer number = new Random().nextInt(this.max-this.min+1);
-        number+=this.min;
+        Integer number = new Random().nextInt(this.max - this.min + 1);
+        number += this.min;
         return number;
     }
 }
